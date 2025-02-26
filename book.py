@@ -5,7 +5,7 @@ from bson import ObjectId
 # from flask_basicauth import BasicAuth
 
 # MongoDB Connection URI (replace with your credentials securely)
-uri = "mongodb+srv://IMLVONE:j3C4GWVFHsVeRqyp@cluster0.xdwtu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+uri = "mongodb+srv://<user>:<db_password>@cluster0.xdwtu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 # Connect to MongoDB
 client = MongoClient(uri)
